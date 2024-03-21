@@ -6,16 +6,27 @@ require '../helpers.php';
 $routes = [
     '/' => 'controllers/home.php',
     '/contact' => 'controllers/contact.php',
-    '/error' => 'controllers/error/404.php'
+    '404' => 'controllers/error/404.php'
 ];
 
-$request = $_SERVER['REQUEST_URI'];
+$uri = $_SERVER['REQUEST_URI'];
 
-foreach($routes as $route => $action) {
-    if($route === $request) {
-        require basePath($action);
-    } else {
-        require basePath($route['/error']);
-    }
+// inspactAndDie($request);
+
+// foreach($routes as $route => $action) {
+//     // inspact($route);
+//     $path = '';
+//     if($route === $uri) {
+//         $path = basePath($routes[$route]);
+//     } 
+
+//     if(file_exists($path)) {
+//         require $path;
+//     } 
+// }
+
+if(array_key_exists($uri, $routes)) {
+    require basePath($routes[$uri]);
+} else {
+    require basePath($routes['404']);
 }
-

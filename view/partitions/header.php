@@ -45,7 +45,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0 header-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.php"
+                <a class="nav-link active" aria-current="page" href="/"
                   >Home</a
                 >
               </li>
@@ -71,12 +71,12 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="contact.php"
+                  href="/contact"
                   >Contact</a
                 >
               </li>
             </ul>
-            <a href="booking.php" class="btn btn-danger rounded-pill"
+            <a href="/booking" class="btn btn-danger rounded-pill"
               >Book a table</a
             >
           </div>

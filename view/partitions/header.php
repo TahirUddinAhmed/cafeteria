@@ -23,7 +23,7 @@
     />
 
     <!-- custom css file -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
@@ -76,7 +76,7 @@
                 >
               </li>
             </ul>
-            <a href="/booking" class="btn btn-danger rounded-pill"
+            <a href="/booking/create" class="btn btn-danger rounded-pill"
               >Book a table</a
             >
           </div>

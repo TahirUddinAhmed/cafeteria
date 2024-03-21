@@ -6,6 +6,7 @@ require '../helpers.php';
 $routes = [
     '/' => 'controllers/home.php',
     '/contact' => 'controllers/contact.php',
+    '/booking/create' => 'controllers/bookings/create.php',
     '404' => 'controllers/error/404.php'
 ];
 

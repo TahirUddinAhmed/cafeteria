@@ -30,7 +30,7 @@
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <h2 class="logo"><a class="" href="index.php">Laa Cafeteria</a></h2>
+          <h2 class="logo"><a class="" href="/">Laa Cafeteria</a></h2>
           <button
             class="navbar-toggler"
             type="button"
